@@ -1,0 +1,41 @@
+<script lang="ts">
+  import { Button } from "$lib/components/ui/button";
+  import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "$lib/components/ui/card";
+  import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "$lib/components/ui/dialog";
+
+  let dialogOpen = false;
+
+  function openDialog() {
+    dialogOpen = true;
+  }
+</script>
+
+<Dialog bind:open={dialogOpen}>
+  <DialogTrigger asChild let:triggerProps>
+    <div {...triggerProps}>
+      <Card on:click={openDialog} class="cursor-pointer">
+        <CardHeader>
+          <CardTitle>Click me to open modal</CardTitle>
+          <CardDescription>This card opens a modal when clicked</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p>Card content goes here</p>
+        </CardContent>
+        <CardFooter>
+          <p>Card footer content</p>
+        </CardFooter>
+      </Card>
+    </div>
+  </DialogTrigger>
+  <DialogContent>
+    <DialogHeader>
+      <DialogTitle>Modal Title</DialogTitle>
+      <DialogDescription>
+        This is the content of the modal that appears when the card is clicked.
+      </DialogDescription>
+    </DialogHeader>
+    <div>
+      <p>Additional modal content can go here.</p>
+    </div>
+  </DialogContent>
+</Dialog>

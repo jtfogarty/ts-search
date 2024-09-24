@@ -48,9 +48,9 @@ UI and Styling
 - Organize Tailwind classes using the `cn()` utility from `$lib/utils`.
 - Use Svelte's built-in transition and animation features.
 
-SvelteKit Project Structure
-- Adapt the recommended SvelteKit project structure for Wails.io:
-  Project Dir
+Wails Project Structure
+- This folder structure is for a Wails.io project using SvelteKit for the frontend:
+  APP01
     └── 📁frontend
         └── 📁build
             └── favicon.png
