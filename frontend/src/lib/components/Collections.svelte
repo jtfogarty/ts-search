@@ -43,7 +43,6 @@
 </div>
 
 <Dialog bind:open={dialogOpen}>
-    <div class="bg-[#1e3040]">
         <DialogContent class="bg-[#243a4d] text-white border-gray-600">
             <DialogHeader>
                 <DialogTitle class="text-white">{selectedCollection?.name}</DialogTitle>
@@ -55,5 +54,4 @@
                 <p>Additional details about the collection can be displayed here.</p>
             </div>
         </DialogContent>
-    </div>
 </Dialog>
