@@ -8,13 +8,17 @@
             <img src="/icons/scroll-text.svg" class="h-6 w-6" alt="">
             <span class="capitalize text-[10px]">scripture</span>
         </a>
-        <a href="/" class="flex py-2.5 hover:bg-[#1f2e3c] gap-2 items-center flex-col">
+        <a href="/books" class="flex py-2.5 hover:bg-[#1f2e3c] gap-2 items-center flex-col">
             <img src="/icons/books.svg" class="h-6 w-6" alt="">
             <span class="capitalize text-[10px]">books</span>
         </a>
         <a href="/" class="flex py-2.5 hover:bg-[#1f2e3c] gap-2 items-center flex-col">
             <img src="/icons/notebook-pen.svg" class="h-6 w-6" alt="">
             <span class="capitalize text-[10px]">notes</span>
+        </a>
+        <a href="/collections" class="flex py-2.5 hover:bg-[#1f2e3c] gap-2 items-center flex-col">
+            <img src="/icons/trendingIcon.svg" class="h-6 w-6" alt="">
+            <span class="capitalize text-[10px]">ts collections</span>
         </a>
     </div>
     <div class="flex-grow"></div>

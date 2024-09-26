@@ -1,6 +1,6 @@
 {
   "$schema": "https://wails.io/schemas/config.v2.json",
-  "name": "app01",
+  "name": "Anchor",
   "outputfilename": "app01",
   "frontend:install": "bun install",
   "frontend:build": "bun run build",
@@ -8,7 +8,7 @@
   "frontend:dev:serverUrl": "auto",
   "wailsjsdir": "./frontend/src/lib",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Jeff Fogarty",
+    "email": "jeff@fogarty.org"
   }
 }
