@@ -4,7 +4,7 @@
             <img src="/icons/homeIcon.svg" class="h-6 w-6" alt="">
             <span class="capitalize text-[10px]">home</span>
         </a>
-        <a href="/" class="flex py-2.5 hover:bg-[#1f2e3c] gap-2 items-center flex-col">
+        <a href="/scripture" class="flex py-2.5 hover:bg-[#1f2e3c] gap-2 items-center flex-col">
             <img src="/icons/scroll-text.svg" class="h-6 w-6" alt="">
             <span class="capitalize text-[10px]">scripture</span>
         </a>
@@ -12,7 +12,7 @@
             <img src="/icons/books.svg" class="h-6 w-6" alt="">
             <span class="capitalize text-[10px]">books</span>
         </a>
-        <a href="/" class="flex py-2.5 hover:bg-[#1f2e3c] gap-2 items-center flex-col">
+        <a href="/notes" class="flex py-2.5 hover:bg-[#1f2e3c] gap-2 items-center flex-col">
             <img src="/icons/notebook-pen.svg" class="h-6 w-6" alt="">
             <span class="capitalize text-[10px]">notes</span>
         </a>
@@ -24,7 +24,7 @@
     <div class="flex-grow"></div>
     <div class="flex-shrink-0">
         <hr class="border-t border-[#2c3e50] my-2" />
-        <a href="/" class="flex py-2.5 hover:bg-[#1f2e3c] gap-2 items-center flex-col">
+        <a href="/settings" class="flex py-2.5 hover:bg-[#1f2e3c] gap-2 items-center flex-col">
             <img src="/icons/Settings.svg" class="h-6 w-6" alt="">
             <span class="capitalize text-[10px]">settings</span>
         </a>

@@ -9,3 +9,7 @@ export function GetCollectionData(arg1) {
 export function GetCollections() {
   return window['go']['main']['App']['GetCollections']();
 }
+
+export function GetShakespeareWorks() {
+  return window['go']['main']['App']['GetShakespeareWorks']();
+}

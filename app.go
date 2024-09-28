@@ -49,3 +49,12 @@ func (a *App) GetCollectionData(collectionName string) (string, error) {
 	}
 	return data, nil
 }
+
+// GetShakespeareWorks retrieves all Shakespeare works from Typesense
+func (a *App) GetShakespeareWorks() ([]ShakespeareWorks, error) {
+	works, err := a.typesenseClient.GetShakespeareWorks()
+	if err != nil {
+		return nil, fmt.Errorf("failed to get Shakespeare works: %w", err)
+	}
+	return works, nil
+}

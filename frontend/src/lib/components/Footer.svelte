@@ -12,7 +12,7 @@
       <div class="flex gap-[14px] text-[11px] capitalize">
         <p>terms & conditions</p>
         <p>privacy policy</p>
-        <p>copyright/DMCA</p>
+        <!-- <p>copyright/DMCA</p>  -->
       </div>
     </div>
   </div>

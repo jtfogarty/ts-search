@@ -48,6 +48,21 @@ export namespace main {
 		    return a;
 		}
 	}
+	
+	export class ShakespeareWorks {
+	    id: string;
+	    title: string;
+	
+	    static createFrom(source: any = {}) {
+	        return new ShakespeareWorks(source);
+	    }
+	
+	    constructor(source: any = {}) {
+	        if ('string' === typeof source) source = JSON.parse(source);
+	        this.id = source["id"];
+	        this.title = source["title"];
+	    }
+	}
 
 }
 
